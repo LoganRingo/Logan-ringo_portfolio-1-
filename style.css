@@ -5,11 +5,11 @@ common
 *************/
 
 body{
-    font-family:"monospace",sans-serif ;
+    font-family:"times new roman", Arial, Helvetica, sans-serif ;
 }
 
 .font-primary{
-    color : #00ABAE
+    color : #00ff15;
 }
 
 .title-icon{
@@ -19,6 +19,7 @@ body{
 
 p{
     font-size: 14px;
+    color:#0000;
 }
 
 h2{
@@ -27,8 +28,8 @@ h2{
     margin-bottom: 20px;
 }
 
-a.font-black{
-    color: #0000 !important;
+a .nav-link_font-white{
+    color: #FFFF ;
 }
  
 /**********
@@ -56,20 +57,20 @@ About
 
 #about .vocation{
     font-size: 17px;
-    color: #A8A8AB;
+    color: #FFFF ;
     margin-bottom: 10px;
 }
 
 #about .skills{
     font-size: 14px;
-    color: #00ABAE;
+    color: #00ff15;
     margin-bottom: 10px;
 }
 
 #about .email{
     margin-top: 14px;
     font-size: 14px;
-    color:#00ABAE;
+    color:#00ff15;
 }
 
 #about .icons{
@@ -78,8 +79,12 @@ About
 }
 
 #about .icons a{
-    color:black;
+    color: #FFFF;
 
+}
+#about .description{
+    color: #1c1c1c !important;
+    font-size: 18px;
 }
 
 
@@ -92,6 +97,7 @@ Project
 #project{
     margin: 60px auto;
     width: 80%;
+   
 }
 
 #project h2{
@@ -104,4 +110,7 @@ Project
 
 #project .card-title{
     font-weight: bold;
+}
+#project .card-text{
+    color:#1c1c1c;
 }
